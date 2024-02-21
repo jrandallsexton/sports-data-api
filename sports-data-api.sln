@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3AA5E54-4A39-4421-A52C-72582CB112CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8F580496-BA49-4199-858F-6A6B44C6CFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFC03EA3-AD90-4E73-BF66-757BB09D9CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Api.Tests.Unit", "test\SportsData.Api.Tests.Unit\SportsData.Api.Tests.Unit.csproj", "{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Api.Tests.Integration", "test\SportsData.Api.Tests.Integration\SportsData.Api.Tests.Integration.csproj", "{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Api", "src\SportsData.Api\SportsData.Api.csproj", "{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB} = {8F580496-BA49-4199-858F-6A6B44C6CFC1}
+		{B0F68B13-9B22-49E3-ADFA-9B919B54FA33} = {8F580496-BA49-4199-858F-6A6B44C6CFC1}
+		{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63} = {B3AA5E54-4A39-4421-A52C-72582CB112CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCA96D18-4B50-4292-AD10-3461EF8BDFC8}
+	EndGlobalSection
+EndGlobal
