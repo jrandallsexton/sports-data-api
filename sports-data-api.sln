@@ -8,12 +8,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8F580496-BA49-4199-858F-6A6B44C6CFC1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFC03EA3-AD90-4E73-BF66-757BB09D9CDB}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Api.Tests.Unit", "test\SportsData.Api.Tests.Unit\SportsData.Api.Tests.Unit.csproj", "{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Api.Tests.Unit", "test\SportsData.Api.Tests.Unit\SportsData.Api.Tests.Unit.csproj", "{1CCD69D5-D236-4FDC-8348-D3FBC51BC6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Api.Tests.Integration", "test\SportsData.Api.Tests.Integration\SportsData.Api.Tests.Integration.csproj", "{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Api.Tests.Integration", "test\SportsData.Api.Tests.Integration\SportsData.Api.Tests.Integration.csproj", "{B0F68B13-9B22-49E3-ADFA-9B919B54FA33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsData.Api", "src\SportsData.Api\SportsData.Api.csproj", "{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsData.Api", "src\SportsData.Api\SportsData.Api.csproj", "{C7AEAFCE-0DEC-40E8-A401-597FCCCE8C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
